@@ -1,8 +1,20 @@
 # rk3318_TvBox.-Home-Assistant.-Armbian-image
+## Шо це?
+Це створений мною образ Armbian 24.2.1 Bookworm with Linux 6.6.16-current-rockchip64 для Android TvBox H96 Max, на базі процесора Rockchip RK3318 або RK3328.
+Станом на 04.04.2024 система оновлена.
+- Встановлено OS-Agent 1.6.0
+- Home Assistant Supervised v.17. Core 2024.4.0, Supervisor 2024.03.1
+## Що працює?
+Працює все, окрім внутрішньго пристрою Bluetooth. WiKi HA рекомендує використовувати ESPhome Bluetooth Proxy, на базі ESP32, і не рекомендує використовувати bluetooth під Linux. Тому я вважаю, що це не критично. Але буду радий любій допомозі побороти проблему з bluetooth.
+```
+user: root password: root123
+user: user password: user123
+```
+
 ## Зкачати: 
-Образ [armbian24_HA17_clear.7z] (https://drive.google.com/file/d/1P3Tawogn7n4Tp01omC8F4UDEiAlUChNZ/view?usp=sharing)
-Образ [multitool.img.xz] (https://drive.google.com/file/d/1uRYtn_xQ4WmM7CCYy34FkDKEzsRG75Bz/view?usp=sharing)
-Програма для запису образів для Windows [balenaEtcher] (https://etcher.balena.io/)
+- Образ [armbian24_HA17_clear.7z](https://drive.google.com/file/d/1P3Tawogn7n4Tp01omC8F4UDEiAlUChNZ/view?usp=sharing)
+- Образ [multitool.img.xz](https://drive.google.com/file/d/1uRYtn_xQ4WmM7CCYy34FkDKEzsRG75Bz/view?usp=sharing)
+- Програма для запису образів для Windows [balenaEtcher](https://etcher.balena.io/)
 
 ## Встановити
 - За допомогою balenaEtcher запишіть на SD картку, розміром не менше 16ГБ, multi-tool.img.xz
