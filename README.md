@@ -1,6 +1,6 @@
 # rk3318_TvBox.-Home-Assistant.-Armbian-image
 ## Шо це?
-Це створений мною образ Armbian 24.2.1 Bookworm with Linux 6.6.16-current-rockchip64 для Android TvBox H96 Max, на базі процесора Rockchip RK3318 або RK3328.
+Це створений мною образ Armbian 24.2.1 Bookworm with Linux 6.6.16-current-rockchip64 для Android TvBox H96 Max, на базі процесора Rockchip RK3318 або RK3328. Швидше всього, він буде працювати на всіх боксах з аналогічним процесором.
 Оновлено станом на 04.04.2024.
 - Встановлено OS-Agent 1.6.0
 - Home Assistant Supervised v.17. Core 2024.4.0, Supervisor 2024.03.1
@@ -40,7 +40,7 @@ sudo reboot
 
 # rk3318_TvBox.-Home-Assistant.-Armbian-image
 ## What is it?
-This is an Armbian 24.2.1 Bookworm image created by me with Linux 6.6.16-current-rockchip64 for Android Tvbox H96 Max, based on the Rockchip rk3318 or RK3328 processor.
+This is an Armbian 24.2.1 Bookworm image created by me with Linux 6.6.16-current-rockchip64 for Android Tvbox H96 Max, based on the Rockchip rk3318 or RK3328 processor. Most likely, it will work on all boxes with a similar processor.
 Updated as of 04.04.2024.
 - Installed OS-Agent 1.6.0
 - Home Assistant Supervised v.17. Core 2024.4.0, Supervisor 2024.03.1
@@ -77,4 +77,4 @@ sudo reboot
 After a reboot, the system will be ready for use.
 Access to WebUI Home Assistant http://homeassistant.local:8123/
 
-Buy me coffee [here]https://www.paypal.com/paypalme/kostyamat)
+Buy me coffee [here](https://www.paypal.com/paypalme/kostyamat)
