@@ -13,7 +13,7 @@ user: root password: root123
 user: user password: user123
 ```
 
-## Зкачати: 
+## Завантажити: 
 - Образ [armbian24_HA17_clear.7z](https://drive.google.com/file/d/1P3Tawogn7n4Tp01omC8F4UDEiAlUChNZ/view?usp=sharing)
 - Образ [multitool.img.xz](https://drive.google.com/file/d/1uRYtn_xQ4WmM7CCYy34FkDKEzsRG75Bz/view?usp=sharing)
 - Програма для запису образів для Windows [balenaEtcher](https://etcher.balena.io/)
