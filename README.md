@@ -35,3 +35,5 @@ sudo reboot
 ```
 Після перезавантаження система буде готова до використання.
 Доступ до WebUI Home Assistant http://homeassistant.local:8123/
+
+Віддячити, закинувши на каву, можна [тут](https://www.paypal.com/paypalme/kostyamat)
